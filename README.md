@@ -17,23 +17,23 @@ Student of Systems Analysis and Development at Faculdade Descomplica (Oct/2022 -
 
 ###############################################################################
 
+
 # dio-spring-boot-2
 
-_This project was developed as part of the "Java Development with AWS Cloud" bootcamp on the dio.me platform. The project showcases my initial understanding of the Spring Framework by creating a RESTful API using controllers, repositories, entities, and exception handling._
+_Este é um projeto desenvolvido durante o bootcamp "Desenvolvimento Java com Cloud AWS" na plataforma dio.me. Neste projeto, demonstro meu conhecimento inicial do Spring Framework ao criar uma API RESTful usando controllers, repositories, entities e tratamento de exceções._
 
-## About Me
+## Sobre Mim
 
-I am a student of Systems Analysis and Development at Faculdade Descomplica (Oct/2022 - Jul/2025).
+Sou estudante de Análise e Desenvolvimento de Sistemas na Faculdade Descomplica (Out/2022 - Jul/2025).
 
 -   [LinkedIn](https://www.linkedin.com/in/pedrobimm/)
 -   Email: [pedrodinizz2@outlook.com](mailto:pedrodinizz2@outlook.com)
--   Phone: +55 81 982036756
+-   Telefone: +55 81 982036756
 
-## Technologies Used
+## Tecnologias Utilizadas
 
 -   Java 17
--   Spring Boot 2
+-   Spring Boot 3
 -   Maven
 -   H2
--   JPA (Java Persistence API)
--   Hibernate
+-   JPA, Hibernate
