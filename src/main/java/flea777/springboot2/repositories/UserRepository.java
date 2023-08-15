@@ -1,5 +1,7 @@
 package flea777.springboot2.repositories;
 
+import flea777.springboot2.handler.BusinessException;
+import flea777.springboot2.handler.MustBeNotNullException;
 import flea777.springboot2.model.User;
 import org.springframework.stereotype.Repository;
 
@@ -9,6 +11,18 @@ import java.util.List;
 @Repository
 public class UserRepository {
     public void save(User user){
+        if (user.getPassword() == null && user.getLogin() == null) {
+            throw new BusinessException("The login and password fields must not be null");
+        }
+
+        if (user.getLogin() == null) {
+            throw new MustBeNotNullException("login");
+        }
+
+        if (user.getPassword() == null) {
+            throw new MustBeNotNullException("password");
+        }
+
         if(user.getId()==null)
             System.out.println("SAVE - Receiving the user in repository layer");
         else
